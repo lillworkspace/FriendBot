@@ -79,11 +79,11 @@ POSITIVE_YOU_ARE_ADJ= [
 ''' The bot inquired further about user's opinion of something '''
 
 NEUTRAL_YOU_VERB_NOUN = [
-    "Tell me about why you {verb} {noun}."
+    "Tell me about why you {verb} {noun}.",
     "How does {noun} make you feel?"
 ]
 NEGATIVE_YOU_VERB_NOUN = [
-    "Why do you {verb} {noun}?",
+    "Why do you {verb} {noun}?"
 ]
 POSTIVE_YOU_VERB_NOUN = [
     "Tell me more about {noun}."
