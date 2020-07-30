@@ -1,20 +1,11 @@
 import random
 
-## Start
-''' The bot initiates the session '''
-
-START_RESPONSES = [
-    'Are you here for your appointment?',
-    'Are you ready to start?',
-    'That\'s Dr. Eliza to you.'
-]
-
 ## Greetings
 ''' The bot greets the user back '''
 
 GREETING_KEYWORDS = ["hello", "hi", "hey", "heyo", "what's up", "whats up"]
 
-GREETING_RESPONSES = ["Hi there.", "How do you feel?", "Is something troubling you?", "Good to hear from you today.", "How are you doing?", "Want to talk about something?"]
+GREETING_RESPONSES = ["Hi there.", "How do you feel?", "Is something troubling you?", "Good to hear from you today.", "How are you doing?", "Want to talk about something?", "Are you here for your appointment?"]
 
 ## Farewells
 ''' The bot says a farewell when the user quits '''
@@ -63,7 +54,7 @@ NEUTRAL_YOU_ARE_NOUN = [
     "Oh, {noun}? Tell me more."
 ]
 NEGATIVE_YOU_ARE_NOUN = [
-    "Hmm. Why do you consider yourself {noun}?",
+    "Hmm. Why do you consider yourself so?",
     "You aren't though. Why do you feel this way?"
 ]
 POSTIVE_YOU_ARE_NOUN = [
@@ -72,11 +63,11 @@ POSTIVE_YOU_ARE_NOUN = [
 ]
 
 NEUTRAL_YOU_ARE_ADJ= [
-    "Why are you feeling {adjective}?",
+    "How long have you been {adjective}?"
 ]
 NEGATIVE_YOU_ARE_ADJ= [
-    "How long have you been {adjective}?",
-    "Can you explain what made you feel {adjective}?"
+    "How long have you been feeling {adjective}?",
+    "Can you further explain what made you feel {adjective}?"
 ]
 POSITIVE_YOU_ARE_ADJ= [
     "Yes, you seem very {adjective}.",
@@ -102,7 +93,7 @@ POSTIVE_YOU_VERB_NOUN = [
 
 ''' These hard-coded phrases will immediately direct user to human help '''
 
-BAD_WORDS = ["kill myself", "killing myself", "hurt myself", "hurting myself", "harm myself", "harming myself", "cut myself", "cutting myself"]
+BAD_WORDS = ["kill myself", "killing myself", "hurt myself", "hurting myself", "harm myself", "harming myself", "cut myself", "cutting myself", "kms"]
 
 CRISIS_RESPONSES = [
     "I'm sorry, have you considered getting human help? An online chat for suicide prevention can be found at 'https://suicidepreventionlifeline.org/chat/'",
