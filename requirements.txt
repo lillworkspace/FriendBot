@@ -1,2 +1,3 @@
 git+https://github.com/Rapptz/discord.py
-textblob==0.15.3
+textblob
+python-dotenv
