@@ -1,1 +1,1 @@
-worker: python __main__.py
+worker: python eliza/__main__.py
